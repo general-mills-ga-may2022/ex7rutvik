@@ -16,7 +16,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
   example-job:
-    name: Save output
+    name: Save outputt
     runs-on: ubuntu-latest
     steps:
       - shell: bash
