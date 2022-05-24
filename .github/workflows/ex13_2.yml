@@ -12,4 +12,4 @@ jobs:
     needs: initialize_variable
     steps:
       - name: usevar  
-        run: echo"var is ${{ env.SOMEVAR }}"
+        run: echo "var is ${{ env.SOMEVAR }}"
